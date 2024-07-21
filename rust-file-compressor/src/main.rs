@@ -9,4 +9,10 @@ use std::io::copy;
 use std::io::BufReader;
 use std::time::Instant;
 
-fn main() {}
+fn main() {
+    // getting the 2 arguments from the user, if it is less than three, then say HINT
+    if args().len() != 3 {
+        eprintln!("Usage : `source` `target`");
+        return;
+    }
+}
