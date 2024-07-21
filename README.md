@@ -45,7 +45,7 @@ Replace `<file_name>` with the name of the file you want to compress and `<outpu
 ### Example
 
 ```bash
-./target/release/rust-file-compressor input.txt /path/to/output/compressed_file.zip
+./target/release/rust-file-compressor encode input.txt /path/to/output/compressed_file.zip
 ```
 
 ### License
